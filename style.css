@@ -499,7 +499,6 @@ footer i {
 }
 
 .footer-content {
-    ;
     font-family: 'Roboto', sans-serif;
     padding: 12px;
     margin: 15px auto;
@@ -547,7 +546,7 @@ footer .toggle-button {
 }
 
 .footer-nav ul li {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .footer-nav ul li a:hover {
@@ -851,20 +850,31 @@ footer .toggle-button {
 @media(min-width:1200px) {
     header .top-info {
         justify-content: center;
-        font-size: 24px;
-        padding-top: 20px;
+        font-size: 16px;
+        padding-top: 10px;
     }
 
     .social-icons img {
-        width: 50px;
+        width: 34px;
+    }
+
+
+    .main-header .logo {
+        margin-right: 10px;
+        width: 20%;
+    }
+
+    .main-header .header-btns {
+        margin-left: 10px;
+        width: 20%;
     }
 
     .social-icons {
-        top: 7px;
+        top: 10px;
     }
 
     .main-header {
-        width: 85%;
+        width: 95%;
         margin: 0 auto;
     }
 
@@ -874,99 +884,103 @@ footer .toggle-button {
     }
 
     .header-content {
-        width: 60%;
+        width: 56%;
     }
 
     .header-content p {
-        margin-top: 40px;
-        font-size: 1.2rem;
-        margin-bottom: 30px;
+        margin-top: 30px;
+        font-size: 12px;
+        margin-bottom: 10px;
     }
 
     .header-content h1 {
         width: 100%;
-        font-size: 3.4rem;
-    }
-
-    .main-header .header-content .highlight-para {
-        font-size: 25px;
-    }
-
-    .main-header a {
-        font-size: 28px;
-    }
-
-    .addspace {
-        height: 50px;
-    }
-
-    main .nav-links {
-        width: 80%;
-    }
-
-    main .nav-links li a {
-        font-size: 1.5rem;
-    }
-
-    .hero-image {
-        height: 700px;
-    }
-
-    .main-cta h4 {
         font-size: 30px;
     }
 
+    .main-header .header-content .highlight-para {
+        font-size: 14px;
+        width: 80%;
+        margin-top: 18px;
+    }
+
+    .main-header a {
+        font-size: 16px;
+    }
+
+    .addspace {
+        height: 25px;
+    }
+
+    /* navbar */
+
+    main .nav-links {
+        width: fit-content;
+    }
+
+    main .nav-links li a {
+        font-size: 16px;
+    }
+
+    .hero-image {
+        height: 500px;
+    }
+
+    .main-cta h4 {
+        font-size: 20px;
+    }
+
     .main-cta .main-box-one h2 {
-        font-size: 3rem;
+        font-size: 30px;
     }
 
     .main-cta a {
-        font-size: 28px;
+        font-size: 14px;
     }
 
     /* floating text */
 
     .floating-text {
-        font-size: 30px;
+        font-size: 15px;
         margin-bottom: 30px;
     }
 
     .floating-text marquee {
-        height: 38px;
+        height: 30px;
         width: 80%;
-        font-size: 28px;
-        padding-top: 1px;
+        font-size: 15px;
+        padding-top: 5px;
     }
 
     /* welocm */
 
     .welcome-and-events-box {
-        width: 70%;
+        width: 80%;
         margin: 50px auto;
     }
 
     .welcome h2 {
-        font-size: 2.4rem;
+        font-size: 16px;
     }
 
     .welcome h1 {
-        font-size: 3.5rem;
+        font-size: 40px;
     }
 
     .welcome p,
     .why-us p {
-        font-size: 1.5rem;
+        font-size: 15px;
         word-spacing: 8px;
-        line-height: 2.2rem;
+        line-height: 1.4rem;
     }
 
     .events,
     .why-us {
-        font-size: 2.4rem;
+        font-size: 25px;
     }
 
     .why-us {
-        width: 70%;
+        width: 80%;
     }
 
     .why-box-1 img {
@@ -974,80 +988,80 @@ footer .toggle-button {
     }
 
     .aff {
-        font-size: 2.4rem;
+        font-size: 25px;
     }
 
     .aff img {
-        width: 350px;
+        width: 200px;
     }
 
     .aff .aff-content {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     /* contact us and map */
 
 
     .contact-and-map-box {
-        width: 70%;
+        width: 80%;
         margin: 50px auto;
     }
 
     input {
-        height: 3rem;
-        font-size: 23px;
+        height: 2rem;
+        font-size: 16px;
     }
 
     .contact-form h2 {
-        font-size: 2.8rem;
+        font-size: 30px;
     }
 
     .contact-form label {
-        font-size: 1.8rem;
+        font-size: 16px;
     }
 
     textarea {
-        font-size: 23px;
+        font-size: 16px;
     }
 
     .contact-form button {
-        font-size: 1.7rem;
+        font-size: 15px;
     }
 
     .map iframe {
-        height: 700px;
+        height: 500px;
     }
 
     .boxes {
-        width: 70%;
+        width: 80%;
         margin: auto;
     }
 
     .box .logo img {
-        width: 180px;
+        width: 150px;
     }
 
     .box .contact-info a {
-        font-size: 1.5rem;
+        font-size: 15px;
     }
 
     .footer-content h4,
     .footer-nav h4 {
-        font-size: 2.5rem;
+        font-size: 19px;
     }
 
     .footer-content p {
         text-align: justify;
-        font-size: 1.6rem;
-        line-height: 2.2rem;
+        font-size: 15px;
+        line-height: 1.5rem;
     }
 
     .footer-nav .active li a {
-        font-size: 1.5rem;
+        font-size: 15px;
     }
 
     .copyright {
-        font-size: 1.4rem;
+        font-size: 16px;
     }
 
     .footer-nav {
