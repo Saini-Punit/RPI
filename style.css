@@ -452,9 +452,14 @@ textarea {
     border: 1px solid lightgray;
 }
 
+.map {
+    width: 80%;
+    margin: 30px auto;
+}
+
 .map iframe {
     width: 100%;
-    margin: 30px auto;
+    margin: auto;
 }
 
 
